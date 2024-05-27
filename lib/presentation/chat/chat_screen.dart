@@ -40,12 +40,15 @@ class _ChatView extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 10),
         child: Column(
           children: [
+            
             Expanded(child: ListView.builder(
               itemCount: 100,
               itemBuilder: (context, index) {
                 return Text('Indice: $index');
               },
             )),
+            
+            
             Text('Mundo')
           ],
         ),
